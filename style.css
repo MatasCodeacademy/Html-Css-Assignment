@@ -1,3 +1,16 @@
+/*
+.mobile-wrapper {
+  width: 428px;
+  height: 3300px;
+
+  margin: 50px;
+  border: 2px solid black;
+  background-color: white;
+}
+  */
+@font-face {
+  font-family: "Inter", sans-serif;
+}
 .logo {
   height: 36px;
   width: 198px;
@@ -11,8 +24,79 @@
 }
 
 .three-row-menu {
-  height: 24px;
-  width: 22px;
   color: rgb(153, 153, 153);
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.graphic-container {
+  height: 378px;
+  margin-right: 20px;
+  width: 30%;
+}
+
+.graphic {
+  height: 320px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 32px 32px;
+  font-family: "Inter";
+  box-sizing: border-box;
+  width: 448px;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.first-title {
+  font-size: 48px;
+  line-height: 58.09px;
+  font-weight: 900;
+}
+
+.first-over-title {
+  color: rgb(255, 57, 152);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.grey-text {
+  color: rgb(85, 85, 85);
+  font-family: "Inter";
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.container-2 {
+  background-image: url(background.svg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 428px;
+  height: 320px;
+  position: absolute;
+}
+
+.button {
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, purple, orange) border-box;
+  border: 5px solid transparent;
+  border-radius: 50px;
+  padding: 23px 50px;
+  width: 188px;
+  height: 75px;
+  box-sizing: border-box;
+}
+
+.button-text {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Inter";
+  color: rgb(17, 17, 17);
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
