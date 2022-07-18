@@ -1,1 +1,18 @@
+$menu-color: rgba(153, 153, 153, 1);
 
+.logo {
+  height: 36px;
+  width: 198px;
+}
+.header-mobile-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 32px;
+}
+.three-row-menu {
+  height: 24px;
+  width: 22px;
+  color: $menu-color;
+  margin-top: 10px;
+}
