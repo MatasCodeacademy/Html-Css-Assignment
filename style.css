@@ -130,7 +130,7 @@
   justify-content: space-between;
   width: 290px;
   background-color: rgb(238, 238, 238);
-  padding: 10px;
+  padding: 15px;
   box-sizing: border-box;
   border-radius: 0 0 10px 10px;
 }
@@ -182,4 +182,21 @@
 
 .people-and-text-box:nth-child(-n+3) {
   margin-right: 40px;
+}
+
+.page-break {
+  border-bottom: 2px solid rgb(238, 238, 238);
+  width: 500px;
+  margin-left: -32px;
+}
+
+.graphic-2 {
+  height: 467px;
+}
+
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 628px;
 }/*# sourceMappingURL=style.css.map */
