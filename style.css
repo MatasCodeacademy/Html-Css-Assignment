@@ -1,4 +1,4 @@
-.mobile-wrapper {
+.main-wrapper {
   box-sizing: border-box;
   padding: 32px 32px;
 }
@@ -281,4 +281,37 @@ footer div a {
   font-weight: 400;
   color: rgb(153, 153, 153);
   margin-top: 64px;
+}
+
+@media screen and (min-width: 429px) {
+  .header-mobile-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 428px) {
+  .header-desktop-menu {
+    display: none;
+  }
+}
+.header-desktop-menu {
+  margin-bottom: 50px;
+}
+
+.nav-desktop-position {
+  float: right;
+}
+
+.pink-text {
+  color: rgb(255, 57, 152);
+  font-family: "Inter";
+  line-height: 30px;
+  font-size: 20px;
+}
+
+header div nav a {
+  text-decoration: none;
+}
+
+.nav-small-box:nth-child(-n+3) {
+  margin-right: 18px;
 }/*# sourceMappingURL=style.css.map */

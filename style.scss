@@ -1,4 +1,4 @@
-.mobile-wrapper {
+.main-wrapper {
   box-sizing: border-box;
   padding: 32px 32px;
 }
@@ -258,4 +258,41 @@ footer {
   font-weight: 400;
   color: rgba(153, 153, 153, 1);
   margin-top: 64px;
+}
+@media screen and (min-width: 429px) {
+  .header-mobile-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 428px) {
+  .header-desktop-menu {
+    display: none;
+  }
+}
+.header-desktop-menu {
+  margin-bottom: 50px;
+}
+.nav-desktop-position {
+  float: right;
+}
+
+.pink-text {
+  color: $font-color-2;
+  font-family: $font;
+  line-height: 30px;
+  font-size: 20px;
+}
+header {
+  div {
+    nav {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.nav-small-box:nth-child(-n + 3) {
+  margin-right: 18px;
+}
+.logo-desktop {
 }
