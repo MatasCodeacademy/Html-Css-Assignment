@@ -1,13 +1,9 @@
-/*
 .mobile-wrapper {
   width: 428px;
   height: 3300px;
-
-  margin: 50px;
-  border: 2px solid black;
-  background-color: white;
+  box-sizing: border-box;
+  padding: 32px 32px;
 }
-  */
 
 @font-face {
   font-family: "Inter", sans-serif;
@@ -18,6 +14,8 @@ $font: "Inter";
 $font-color-1: rgba(17, 17, 17, 1);
 $font-color-2: rgba(255, 57, 152, 1);
 $font-color-3: rgba(85, 85, 85, 1);
+$font-color-4: rgba(255, 129, 57, 1);
+$font-color-5: rgba(119, 119, 119, 1);
 .logo {
   height: 36px;
   width: 198px;
@@ -26,7 +24,6 @@ $font-color-3: rgba(85, 85, 85, 1);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 32px 32px;
 }
 .three-row-menu {
   color: $menu-color;
@@ -34,9 +31,7 @@ $font-color-3: rgba(85, 85, 85, 1);
 }
 .graphic-container {
   height: 378px;
-
-  margin-right: 20px;
-  width: 30%;
+  overflow: hidden;
 }
 .graphic {
   height: 320px;
@@ -46,17 +41,15 @@ $font-color-3: rgba(85, 85, 85, 1);
   display: flex;
   flex-direction: row;
 
-  margin: 0 0 32px 32px;
   font-family: $font;
 
   box-sizing: border-box;
-  width: 448px;
+  width: 428px;
 }
 .content-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 70%;
 }
 
 .first-title {
@@ -79,9 +72,8 @@ $font-color-3: rgba(85, 85, 85, 1);
 .container-2 {
   background-image: url(background.svg);
   object-fit: cover;
-  width: 428px;
+  overflow: visible;
   height: 320px;
-  position: absolute;
 }
 
 .button {
@@ -100,4 +92,81 @@ $font-color-3: rgba(85, 85, 85, 1);
   font-family: $font;
   color: $font-color-1;
   font-size: 20px;
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.icon-box {
+  width: 155px;
+  padding: 10px;
+}
+.container-3 {
+  font-family: $font;
+
+  box-sizing: border-box;
+  width: 428px;
+}
+.second-title {
+  font-size: 40px;
+  line-height: 48.41px;
+  font-weight: 500;
+}
+.people {
+  font-size: 0;
+  font-family: $font;
+  display: flex;
+  flex-direction: row;
+}
+.people-text-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 290px;
+  background-color: rgb(238, 238, 238);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+}
+.people-left .people-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.people-color-text {
+  color: $font-color-4;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.people-bold-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: $font-color-1;
+}
+.people-grey-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: $font-color-5;
+}
+.people-grey-text-2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: $font-color-5;
+}
+.eth-img {
+  height: 16px;
+  width: 13px;
+}
+.people-individual-box {
+  padding: 5px 0;
+}
+.people-and-text-box {
+  display: flex;
+  flex-direction: column;
+}
+.people-and-text-box:nth-child(-n + 3) {
+  margin-right: 40px;
 }
