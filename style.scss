@@ -42,7 +42,7 @@ $page-break-color: rgba(238, 238, 238, 1);
   flex-direction: row;
   font-family: $font;
   box-sizing: border-box;
-  width: 428px;
+  width: 100%;
   margin-bottom: 100px;
 }
 .content-text {
@@ -263,6 +263,18 @@ footer {
   .header-mobile-menu {
     display: none;
   }
+  .first-title {
+    font-size: 96px;
+    line-height: 116.18px;
+    font-weight: 900;
+  }
+  .graphic-container {
+    height: 519px;
+    width: 30%;
+  }
+  .graphic {
+    height: 519px;
+  }
 }
 @media screen and (max-width: 428px) {
   .header-desktop-menu {
@@ -293,6 +305,4 @@ header {
 }
 .nav-small-box:nth-child(-n + 3) {
   margin-right: 18px;
-}
-.logo-desktop {
 }

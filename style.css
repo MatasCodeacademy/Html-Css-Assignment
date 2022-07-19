@@ -37,7 +37,7 @@
   flex-direction: row;
   font-family: "Inter";
   box-sizing: border-box;
-  width: 428px;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -286,6 +286,18 @@ footer div a {
 @media screen and (min-width: 429px) {
   .header-mobile-menu {
     display: none;
+  }
+  .first-title {
+    font-size: 96px;
+    line-height: 116.18px;
+    font-weight: 900;
+  }
+  .graphic-container {
+    height: 519px;
+    width: 30%;
+  }
+  .graphic {
+    height: 519px;
   }
 }
 @media screen and (max-width: 428px) {
