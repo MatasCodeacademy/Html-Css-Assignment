@@ -118,6 +118,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 380px;
 }
 
 .icon-box {
@@ -302,6 +303,27 @@ footer div a {
   }
   .graphic {
     height: 519px;
+  }
+  .container-2 {
+    background-image: url(background.svg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 320px;
+    margin: 0;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  .text-on-background {
+    margin: 0px 0px 32px 62px;
+    width: 100%;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
   }
 }
 @media screen and (max-width: 428px) {

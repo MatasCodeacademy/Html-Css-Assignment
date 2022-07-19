@@ -87,8 +87,7 @@ $page-break-color: rgba(238, 238, 238, 1);
   width: 364px;
   white-space: normal;
 }
-.text-on-background-title {
-}
+
 .text-on-background-sub-title {
   font-size: 20px;
   font-weight: 400;
@@ -116,6 +115,7 @@ $page-break-color: rgba(238, 238, 238, 1);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 380px;
 }
 .icon-box {
   width: 155px;
@@ -278,6 +278,29 @@ footer {
   }
   .graphic {
     height: 519px;
+  }
+  .container-2 {
+    background-image: url(background.svg);
+    object-fit: cover;
+
+    height: 320px;
+    margin: 0;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+
+  .text-on-background {
+    margin: 0px 0px 32px 62px;
+    width: 100%;
+  }
+  .icons {
+    display: flex;
+
+    justify-content: space-between;
+    width: 1280px;
   }
 }
 @media screen and (max-width: 428px) {
