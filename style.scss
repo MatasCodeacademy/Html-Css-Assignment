@@ -209,9 +209,7 @@ $page-break-color: rgba(238, 238, 238, 1);
   width: 500px;
   margin-left: -32px;
 }
-.graphic-2 {
-  height: 467px;
-}
+
 .graphic-container-2 {
   background-image: url(upsell-footer-image.svg);
   width: 206px;
@@ -220,7 +218,7 @@ $page-break-color: rgba(238, 238, 238, 1);
 .container-4 {
   display: flex;
   flex-direction: row;
-
+  white-space: pre-line;
   width: 428px;
   box-sizing: border-box;
   margin-bottom: 32px;
@@ -306,7 +304,6 @@ i {
   .container-2 {
     background-image: url(background.svg);
     object-fit: cover;
-
     height: 320px;
     margin: 0;
     background-repeat: no-repeat;
@@ -381,6 +378,12 @@ i {
   }
   .footer-hide {
     display: none;
+  }
+  .graphic-container-2 {
+    margin-top: 140px;
+  }
+  .page-break-2 {
+    margin-top: -33px;
   }
 }
 .header-desktop-menu {
