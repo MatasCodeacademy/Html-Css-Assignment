@@ -228,8 +228,7 @@
   margin-left: -32px;
 }
 
-.graphic-container-2 {
-  background-image: url(upsell-footer-image.svg);
+.upsell {
   width: 206px;
   height: 467px;
 }
@@ -359,8 +358,8 @@ i {
     font-size: 56px;
     margin: 24px 0;
   }
-  .graphic-container-2 {
-    margin-right: 450px;
+  .upsell {
+    margin-right: 350px;
   }
   .content-text-container-4 {
     display: flex;
@@ -407,7 +406,7 @@ i {
   .footer-hide {
     display: none;
   }
-  .graphic-container-2 {
+  .upsell {
     margin: 140px 0 0 0;
   }
   .page-break-2 {
