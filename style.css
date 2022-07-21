@@ -160,6 +160,7 @@
   font-family: "Inter";
   display: flex;
   flex-direction: row;
+  margin-bottom: 120px;
 }
 
 .people-text-box {
@@ -351,12 +352,14 @@ i {
     display: flex;
     justify-content: space-between;
     width: 1280px;
+    margin: 126px 0;
   }
   .container-3 {
     width: 100%;
   }
   .container-4 {
     width: 100%;
+    margin-top: 64px;
   }
   .first-title-incontainer-4 {
     font-size: 56px;
@@ -372,7 +375,6 @@ i {
   }
   .page-break {
     width: 1280px;
-    margin: 120px 0;
   }
   .desktop-footer {
     display: flex;
@@ -426,6 +428,9 @@ i {
   }
   .container-4 {
     margin-top: 30px;
+  }
+  .icons {
+    margin: 67px 0 57px;
   }
 }
 .header-desktop-menu {
