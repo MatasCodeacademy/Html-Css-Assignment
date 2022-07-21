@@ -208,7 +208,6 @@ $page-break-color: rgba(238, 238, 238, 1);
   width: 500px;
   margin-left: -32px;
 }
-
 .upsell {
   width: 206px;
   height: 467px;
@@ -226,7 +225,7 @@ $page-break-color: rgba(238, 238, 238, 1);
   flex-direction: row;
   list-style-type: none;
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 30px;
 }
 li:nth-child(-n + 3) {
   margin-right: 16px;
@@ -272,6 +271,9 @@ footer {
 i {
   color: rgba(153, 153, 153, 1);
 }
+.page-break-2 {
+  margin-top: -33px;
+}
 @media screen and (min-width: 429px) {
   .main-wrapper {
     padding: 72px 80px;
@@ -294,7 +296,7 @@ i {
   }
   .desktop-formatting {
     width: 60%;
-    margin: 0 0 24px 0;
+    margin: 0 0 24px;
   }
   .graphic {
     height: 519px;
@@ -340,11 +342,9 @@ i {
   }
   .page-break {
     width: 1280px;
-    margin: 0;
+    margin: 120px 0;
   }
-  .page-break-2 {
-    margin-top: -33px;
-  }
+
   .desktop-footer {
     display: flex;
     justify-content: space-between;
@@ -379,18 +379,25 @@ i {
     display: none;
   }
   .upsell {
-    margin: 140px 0 0 0;
+    margin: 140px 0 0;
   }
-  .page-break-2 {
-    margin-top: -33px;
-  }
+
   .mobile-extra-formatting-2 {
-    margin: 0 0 24px 0;
+    margin: 0 0 24px;
     width: 207px;
   }
   .mobile-extra-formatting-1 {
-    margin: 0 0 24px 0;
+    margin: 0 0 24px;
     width: 274px;
+  }
+  .social-icons {
+    margin-bottom: 66.09px;
+  }
+  .people {
+    margin-bottom: 92px;
+  }
+  .container-4 {
+    margin-top: 30px;
   }
 }
 .header-desktop-menu {
